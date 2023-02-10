@@ -1,0 +1,33 @@
+/*
+colours: 
+    darkest green: #122e1e
+    dark green: #2c6e49
+    ligther green: #4c956c
+    pale: #fefee3
+    pink: #ffc9b9
+    beige: #d68c45
+
+    font-family: 'Raleway', sans-serif;
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffc9b9;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vw;
+}
+label {
+    color: ;
+}
+input, select {
+    background-color: #fefee3;
+}
+button
