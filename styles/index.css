@@ -3,9 +3,17 @@ colours:
     darkest green: #122e1e
     dark green: #2c6e49
     ligther green: #4c956c
+    even lighter: #d1e3d9
+    lightest: #dfebe4
     pale: #fefee3
     pink: #ffc9b9
     beige: #d68c45
+
+--mint-green: #DEFDFBff;
+--blue-munsell: #248194ff;
+--light-sea-green: #00B0B0ff;
+--carmine: #991F1Fff;
+--caribbean-current: #047171ff;
 
     font-family: 'Raleway', sans-serif;
 */
@@ -14,10 +22,39 @@ body {
     display: flex;
     flex-direction: column;
     width: 75%;
+    height: ;
     margin-left: auto;
     margin-right: auto;
-    background-color: #ffc9b9;
+    font-family: 'Raleway', sans-serif;
+    background-color: #DEFDFBff;
 
+}
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    min-height: 100vw;
+    padding-top: 50px;
+}
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #047171ff;
+}
+.info {
+    font-style: italic;
+    font-weight: 100;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    translate: 0px 100px;
+}
+.plant-img {
+    max-width: 400px;
+    width: 100%;
 }
 form {
     display: flex;
@@ -25,9 +62,39 @@ form {
     min-height: 100vw;
 }
 label {
-    color: ;
+    color: #122e1e;
 }
 input, select {
+    background-color: #d1e3d9;
+    color: #122e1e;
+    border-radius: 4px;
+
+}
+input:focus, select:focus {
+    background-color: #dfebe4;
+    color: #122e1e;
+    box-shadow: 0px 0px 20px #122e1e;
+
+}
+
+::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: #2c6e49;
+}
+.terms {
+    color: #047171ff;
+    font-weight: 600;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
     background-color: #fefee3;
 }
-button
+button:hover {
+    background-color: #4c956c;
+    box-shadow: 0px 0px 20px #122e1e;
+}
