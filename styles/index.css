@@ -40,6 +40,8 @@ main {
     max-width: 400px;
     width: 100%;
     z-index: -1;
+    position: sticky;
+    right: 10px;
 }
 form {
     display: flex;
